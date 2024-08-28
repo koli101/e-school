@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #F0FFF0;
+    padding: 32px 0;
+}
+nav ul li a{
+ color: black;
+ padding: 10px 20px;
+ text-decoration: none;
+ transition: all 0.4s ease;
+ border-radius: 50px;
+ margin-right: 10px;
+}
+.custom-btn{
+background-color: #21B573;
+border-radius: 50px;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+}
+nav ul li a:hover{
+  background-color: #21B573;
+  color: #fff;
+
+}
+img{
+    max-width: 100%; 
+}
+.image-content span{
+    color: #FD511A;
+    font-size: 16px;
+}
+.image-content h2 {font-size: 50px;
+line-height: 70px;
+font-weight: 700;
+}
+.image-content  strong{
+    color: #21B573;
+}
+.image-content p{
+    color: #6C6B6B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.image-content a{
+    font-size: 18px;
+}
+@media (max-width:768px) {
+    .image-content h2 {
+        font-size: 40px;
+        line-height: 57px;
+    }
+    .image-content p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
